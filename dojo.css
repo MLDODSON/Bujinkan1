@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: white;
+	text-align:center;
+	background-size:cover;
+}
+
+.navbar-inverse{
+	background: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #F9E528;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #999;
+}
+
+.header {
+	padding-top: 50px;
+}
+
+a:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+h1 {
+	text-align: justify;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-size: 12pt;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-top: 70px;
+	line-height: 30px;
+}
+
+h4{
+	padding-top: 25px;
+}
+
+#art {
+	background: white;
+	border: #999 solid 1px;
+	box-shadow: rgb(110, 110, 110) 8px 8px 10px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+#the_footer{
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 15pt;
+	background-color: #d11414;
+	color: #FCF8F8;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.bullet {
+	color: black;
+	font-size: 16pt;
+}
+
+.it {
+	color: white;
+	font-size: 10pt;
+}
+
+.sonic {
+	color: #F9E528;
+}
+
+.envelope {
+	color: white;
+}
+
+.envelope:hover { 
+    color: #999;
+	background-color: transparent;
+}
