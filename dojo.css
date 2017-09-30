@@ -36,11 +36,17 @@ h1 {
 	text-align: justify;
 	font-family: Ubuntu;
 	font-style: normal;
-	font-size: 12pt;
-	margin-left: 45px;
-	margin-right: 45px;
-	margin-top: 70px;
+	font-size: 14pt;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	line-height: 30px;
+}
+
+h2{
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h4{
@@ -50,7 +56,7 @@ h4{
 #art {
 	background: white;
 	border: #999 solid 1px;
-	box-shadow: rgb(110, 110, 110) 8px 8px 10px;
+	box-shadow: rgb(208, 208, 216) 8px 8px 10px;
 	margin-left: 1px;
 	margin-right: 1px;
 }
@@ -67,7 +73,7 @@ h4{
 }
 
 .bullet {
-	color: black;
+	color: white;
 	font-size: 16pt;
 }
 
@@ -87,4 +93,74 @@ h4{
 .envelope:hover { 
     color: #999;
 	background-color: transparent;
+}
+
+#thumbnail-preview-indicators {
+  position: relative;
+  overflow: hidden;
+}
+#thumbnail-preview-indicators .slides .slide-1, 
+#thumbnail-preview-indicators .slides .slide-2,
+#thumbnail-preview-indicators .slides .slide-3 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+    #thumbnail-preview-indicators,
+    #thumbnail-preview-indicators .slides,
+    #thumbnail-preview-indicators .slides .slide-1, 
+    #thumbnail-preview-indicators .slides .slide-2,
+    #thumbnail-preview-indicators .slides .slide-3 {
+      height: 480px;
+    }
+#thumbnail-preview-indicators .slides .slide-1 {
+  background-image: url(Masaaki-Hatsumi1.jpg);
+}
+#thumbnail-preview-indicators .slides .slide-2 {
+  background-image: url(Takamatsu.jpg);
+}
+#thumbnail-preview-indicators .slides .slide-3 {
+  background-image: url(Masaaki-Hatsumi2.jpg);
+}
+#thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
+  top: 20%;
+  bottom: inherit;
+}
+#thumbnail-preview-indicators .carousel-indicators li,
+#thumbnail-preview-indicators .carousel-indicators li.active {
+  position: relative;
+  width: 100px;
+  height: 8px;  
+}
+#thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  display: none;
+  opacity: 0;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -50px;
+}
+#thumbnail-preview-indicators .carousel-indicators li:hover > .thumbnail,
+#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail {
+  display: block;
+  opacity: .8;
+}
+#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail:hover{
+  opacity: 1;
+}
+@media screen and (max-width : 480px) {    
+    #thumbnail-preview-indicators .carousel-indicators li,
+    #thumbnail-preview-indicators .carousel-indicators li.active {
+      width: 50px;
+      height: 8px;
+      position: relative;
+    }
+    #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+       width: 50px;
+       left: 50%;
+       margin-top: -50px;
+       margin-left: -25px;
+    }
 }
