@@ -34,9 +34,9 @@ a:hover {
 
 h1 {
 	text-align: justify;
-	font-family: Ubuntu;
+	font-family: Source Sans Pro;
 	font-style: normal;
-	font-size: 14pt;
+	font-size: 13.8pt;
 	margin-left: 80px;
 	margin-right: 80px;
 	margin-top: 30px;
@@ -58,7 +58,7 @@ h2{
 
 h3{
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 h4{
