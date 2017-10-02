@@ -141,3 +141,7 @@ ul.list{
 	font-size: 12pt;
 	color: black;
 }
+
+#shadow{
+	box-shadow: rgb(109, 110, 112) 6px 6px 8px;
+}
