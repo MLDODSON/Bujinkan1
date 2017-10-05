@@ -95,6 +95,14 @@ h4{
 	background-color: transparent;
 }
 
+.col-lg-6 {
+	padding-top: 40px;
+}
+
+iframe{
+	box-shadow: rgb(109, 110, 112) 6px 6px 8px;
+}
+
 #thumbnail-preview-indicators {
   position: relative;
   overflow: hidden;
