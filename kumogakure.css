@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: white;
+	text-align:center;
+	background-size:cover;
+}
+
+.navbar-inverse{
+	background: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #F9E528;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #999;
+}
+
+.header {
+	padding-top: 50px;
+}
+
+a:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+h1 {
+	text-align: justify;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 14pt;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	line-height: 28px;
+}
+
+h2{
+	text-align: center;
+	text-decoration: none;
+	font-family: Doppio One;
+	font-style: normal;
+	line-height: 6px;
+	font-size: 3.4vw;
+	padding-top: 70px;
+	padding-bottom: 0px;
+}
+
+h3{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+h4{
+	padding-top: 25px;
+}
+
+#art {
+background: url(parchment2.jpg);
+text-align:center;
+height: 100%;
+min-height: 100%;
+max-height: 100%;
+width: 100%;
+background-size: 100% 100%;
+background-position: center;
+max-width: 100%;
+min-width: 100%;
+top: 0;
+left: 0;
+padding: 0;
+margin: 0;
+border: #999 solid 1px;
+box-shadow: rgb(208, 208, 216) 8px 8px 10px;
+margin-left: 1px;
+margin-right: 1px;
+}
+
+#the_footer{
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 15pt;
+	background-color: #d11414;
+	color: #FCF8F8;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.bullet {
+	color: white;
+	font-size: 16pt;
+}
+
+.it {
+	color: white;
+	font-size: 10pt;
+}
+
+.sonic {
+	color: #F9E528;
+}
+
+.envelope {
+	color: white;
+}
+
+.envelope:hover { 
+    color: #999;
+	background-color: transparent;
+}
+
+p.title {
+	padding-top: 10px;
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-size: 2.1vw;
+	color: #c40323;
+}
+
+p.one{
+	text-align: justify;
+	font-family: Doppio One;
+	font-size: 2.2vw;
+	color: #c40323;
+}
+
+ol.list{
+	text-align: justify;
+	font-family: Doppio One;
+	font-size: 13pt;
+	color: black;
+}
+
+ul.list{
+	text-align: justify;
+	font-family: Doppio One;
+	font-size: 13pt;
+	color: black;
+}
+
+p.two{
+	text-align: center;
+}
+
+
