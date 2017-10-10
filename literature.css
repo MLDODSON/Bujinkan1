@@ -50,7 +50,7 @@ h2{
 	font-family: Doppio One;
 	font-style: normal;
 	line-height: 6px;
-	font-size: 3.6vw;
+	font-size: 3.2vw;
 	padding-top: 70px;
 	padding-bottom: 0px;
 	color: black;
@@ -118,22 +118,6 @@ margin-right: 1px;
 .envelope:hover { 
     color: #999;
 	background-color: transparent;
-}
-
-.one {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	text-align: center;
-	text-decoration: none;
-	font-family: Doppio One;
-	font-style: normal;
-	line-height: 6px;
-	font-size: 2.4vw;
-	color: #c40323;
-}
-
-.two {
-	line-height: 41px;
 }
 
 hr {
