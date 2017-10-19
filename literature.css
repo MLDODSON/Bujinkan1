@@ -36,12 +36,13 @@ h1 {
 	text-align: center;
 	font-family: Ubuntu;
 	font-style: normal;
-	font-size: 14pt;
+	font-size: 1.8vw;
 	margin-left: 80px;
 	margin-right: 80px;
 	margin-top: 0px;
 	margin-bottom: 10px;
 	line-height: 30px;
+	color: #c40323;
 }
 
 h2{
