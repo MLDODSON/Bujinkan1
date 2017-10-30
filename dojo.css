@@ -36,12 +36,12 @@ h1 {
 	text-align: justify;
 	font-family: Ubuntu;
 	font-style: normal;
-	font-size: 1.5vw;
+	font-size: 1.55vw;
 	margin-left: 80px;
 	margin-right: 80px;
 	margin-top: 60px;
 	margin-bottom: 60px;
-	line-height: 30px;
+	line-height: 28px;
 }
 
 h2{
@@ -51,6 +51,11 @@ h2{
 
 h4{
 	padding-top: 25px;
+}
+
+h5{
+	color: white;
+	font-size: 1.0vw;
 }
 
 #art {
@@ -79,7 +84,7 @@ h4{
 
 .it {
 	color: white;
-	font-size: 1.4vw;
+	font-size: 1.0vw;
 }
 
 .sonic {

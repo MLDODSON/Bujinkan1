@@ -65,6 +65,11 @@ h4{
 	padding-top: 25px;
 }
 
+h5{
+	color: white;
+	font-size: 1.0vw;
+}
+
 #art {
 background: url(parchment2.jpg);
 text-align:center;
@@ -104,7 +109,7 @@ margin-right: 1px;
 
 .it {
 	color: white;
-	font-size: 1.4vw;
+	font-size: 1.0vw;
 }
 
 .sonic {
@@ -162,6 +167,14 @@ p.vidtittletwo {
 	font-size: 1.1vw;
 	color: black;
 	padding-bottom: 50px;
+}
+
+p.vidtittlethree {
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-size: 1.2vw;
+	color: #d11414;
+	padding-bottom: 30px;
 }
 
 
