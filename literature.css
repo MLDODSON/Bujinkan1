@@ -66,6 +66,11 @@ h4{
 	padding-top: 25px;
 }
 
+h5{
+	color: white;
+	font-size: 1.0vw;
+}
+
 #art {
 background: url(parchment2.jpg);
 text-align:center;
@@ -105,7 +110,7 @@ margin-right: 1px;
 
 .it {
 	color: white;
-	font-size: 1.4vw;
+	font-size: 1.0vw;
 }
 
 .sonic {

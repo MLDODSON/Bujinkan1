@@ -65,6 +65,11 @@ h4{
 	padding-top: 25px;
 }
 
+h5{
+	color: white;
+	font-size: 1.0vw;
+}
+
 #the_footer{
 	text-align: center;
 	font-family: Source Sans Pro;
@@ -83,7 +88,7 @@ h4{
 
 .it {
 	color: white;
-	font-size: 1.4vw;
+	font-size: 1.0vw;
 }
 
 .sonic {
